@@ -3,6 +3,7 @@ import { Contact } from "@/components/Contact";
 import { Experiments } from "@/components/Experiments";
 import { Hero } from "@/components/Hero";
 import { SelectedWork } from "@/components/SelectedWork";
+import { ToolsAndTechnologies } from "@/components/ToolsAndTechnologies";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <SelectedWork />
       <Experiments />
+      <ToolsAndTechnologies />
       <About />
       <Contact />
     </main>
